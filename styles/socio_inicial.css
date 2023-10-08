@@ -1,0 +1,113 @@
+
+body {
+    font-family: 'Righteous', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  .cabecalho {
+    background-color: #B3D4FF;
+    color: #000;
+    padding: 10px;
+  }
+
+  .foto1 {
+    height: 80px;
+    margin-right: 10px;
+  }
+  
+  .cabecalho nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cabecalho img {
+    height: 80px;
+    margin-right: 10px;
+  }
+  
+  .destaque {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .cabecalho div:nth-child(2) {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cabecalho span:not(:first-child) {
+    margin-left: 10px;
+  }
+  
+  .cabecalho img:not(:last-child) {
+    margin-right: 5px;
+  }
+  
+
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  main h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  main h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .categorias {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .categoria {
+    flex-basis: calc(50% - 10px);
+  }
+  
+  .categoria img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .categoria p {
+    margin-top: 10px;
+  }
+  
+  main button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+  button a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+  
+
+  footer {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+  }
+  
